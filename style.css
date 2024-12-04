@@ -1,0 +1,35 @@
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slideUp 3s ease-out;
+  }
+
+  .focusNone {
+    focus-visible: none;
+    outline: none;
+    border: none;
+  }
+
+  .nameForm {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1px;
+  }
+
+  .bg-main-background {
+  background: linear-gradient(88deg, #ED48FF, #00DEFF);
+
+  }
+  .scroll-none::-webkit-scrollbar {
+    display: none;
+  }
